@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cold Wallet - Support & Help</title>
+    <meta
+      name="description"
+      content="Cold Wallet support page. Securely manage crypto recovery phrases with Face ID or passcode unlock, BIP-39 smart hints, and encrypted iCloud Keychain backup."
+    >
+    <meta
+      name="keywords"
+      content="cold wallet, seed phrase, mnemonic, bip39, self custody, private key, crypto security, bitcoin, ethereum, 助记词, 冷钱包, 安全"
+    >
+    <style>
+      :root {
+        --bg: #0f1419;
+        --surface: #1a2332;
+        --text: #e6edf3;
+        --muted: #8b949e;
+        --accent: #58a6ff;
+        --accent-soft: rgba(88, 166, 255, 0.15);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        margin: 0;
+        padding: 1.5rem;
+        max-width: 760px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .app-header {
+        margin-bottom: 1.5rem;
+      }
+
+      .app-title {
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin: 0;
+      }
+
+      .app-subtitle {
+        color: var(--muted);
+        font-size: 0.98rem;
+        margin: 0.3rem 0 0 0;
+      }
+
+      .promo {
+        background: var(--accent-soft);
+        border: 1px solid var(--accent);
+        border-radius: 12px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 2rem;
+        font-size: 0.95rem;
+      }
+
+      .lang-section {
+        margin-bottom: 2rem;
+      }
+
+      .lang-label {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--muted);
+        margin-bottom: 0.5rem;
+      }
+
+      h2 {
+        font-size: 1.15rem;
+        margin: 1.75rem 0 0.5rem 0;
+        color: var(--accent);
+      }
+
+      h2:first-of-type {
+        margin-top: 0;
+      }
+
+      ul {
+        margin: 0.25rem 0 1rem 0;
+        padding-left: 1.25rem;
+      }
+
+      li {
+        margin: 0.35rem 0;
+      }
+
+      .support-footer {
+        margin-top: 2.5rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--surface);
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="app-header">
+      <h1 class="app-title">Cold Wallet</h1>
+      <p class="app-subtitle">Secure your recovery phrase, keep full control.</p>
+    </header>
+
+    <p class="promo">
+      Protect your crypto recovery phrases with Secure Enclave-grade security, Face ID unlock, and encrypted iCloud Keychain backup.
+    </p>
+
+    <div class="lang-section">
+      <div class="lang-label">English</div>
+      <p>
+        Cold Wallet helps you securely store and manage crypto recovery phrases on your own device.
+        Core phrase handling is offline-first, and your sensitive data stays protected with modern encryption.
+      </p>
+
+      <h2>Core Features</h2>
+      <ul>
+        <li><strong>Face ID / Passcode Unlock</strong> - Fast secure access with no extra app password to remember</li>
+        <li><strong>BIP-39 Smart Hints</strong> - Intelligent word suggestions to reduce phrase-entry mistakes</li>
+        <li><strong>Offline-First Handling</strong> - Core phrase operations run locally on device</li>
+        <li><strong>Encrypted Local Storage</strong> - Sensitive data protected with strong cryptographic storage</li>
+        <li><strong>Auto-Hide Protection</strong> - Phrase content automatically hides after a configurable timeout</li>
+      </ul>
+
+      <h2>Backup & Privacy</h2>
+      <ul>
+        <li><strong>Encrypted iCloud Keychain Backup</strong> - Optional secure backup and restore, including after reinstall</li>
+        <li><strong>Privacy Protection</strong> - Anti-screenshot and anti-shoulder-surfing safeguards</li>
+        <li><strong>Multi-language Support</strong> - Built for users around the world</li>
+      </ul>
+
+      <h2>Known Issue</h2>
+      <ul>
+        <li>On some iOS 26.4 devices, tapping a text field may trigger a Local Network prompt, even though Cold Wallet does not use local network APIs.</li>
+      </ul>
+    </div>
+
+    <div class="lang-section">
+      <div class="lang-label">中文（简体）</div>
+      <p>
+        冷钱包用于在您的设备上安全保存和管理加密货币助记词。核心能力以离线优先方式运行，
+        结合现代加密机制，尽可能降低敏感信息暴露风险。
+      </p>
+
+      <h2>核心功能</h2>
+      <ul>
+        <li><strong>Face ID / 设备密码解锁</strong> - 安全快速访问，无需额外记忆应用密码</li>
+        <li><strong>BIP-39 智能提示</strong> - 输入助记词时提供智能词汇建议，降低输错风险</li>
+        <li><strong>离线优先处理</strong> - 核心助记词流程在本地运行</li>
+        <li><strong>本地加密存储</strong> - 使用高强度加密方式保护敏感数据</li>
+        <li><strong>自动隐藏保护</strong> - 可配置超时后自动隐藏助记词内容</li>
+      </ul>
+
+      <h2>备份与隐私</h2>
+      <ul>
+        <li><strong>iCloud 钥匙串加密备份</strong> - 可选加密备份与恢复，卸载重装后仍可恢复</li>
+        <li><strong>隐私防护</strong> - 提供防截屏与防窥屏保护</li>
+        <li><strong>多语言支持</strong> - 面向全球用户提供更友好的使用体验</li>
+      </ul>
+
+      <h2>已知问题</h2>
+      <ul>
+        <li>部分 iOS 26.4 设备点击文本输入框时，可能出现“本地网络”权限弹窗（本应用未使用本地网络 API）。</li>
+      </ul>
+    </div>
+
+    <section class="contact-section">
+      <h2>Contact / 联系我们</h2>
+      <p>For support or feedback, email us:</p>
+      <p><a href="mailto:1145966326@qq.com">1145966326@qq.com</a></p>
+      <p>如需帮助或反馈，请发送邮件至：<a href="mailto:1145966326@qq.com">1145966326@qq.com</a></p>
+    </section>
+
+    <footer class="support-footer">
+      <p>App Copyright 2026 Chen Xiaonan</p>
+      <p>应用版权 2026 陈晓楠</p>
+    </footer>
+  </body>
+</html>
