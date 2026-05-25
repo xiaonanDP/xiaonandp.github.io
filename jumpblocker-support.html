@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JumpBlocker - Support & Help</title>
+    <meta
+      name="description"
+      content="JumpBlocker (开屏弃) support. Skip splash and shake-to-open surprises with Home Screen Web Clips and deep links—no VPN, no traffic filtering."
+    >
+    <meta
+      name="keywords"
+      content="jumpblocker, splash, web clip, deep link, home screen, skip ads, shake, launcher, 开屏弃, 开屏广告, 摇一摇, Web Clip, 主屏幕"
+    >
+    <style>
+      :root {
+        --bg: #0f1419;
+        --surface: #1a2332;
+        --text: #e6edf3;
+        --muted: #8b949e;
+        --accent: #58a6ff;
+        --accent-soft: rgba(88, 166, 255, 0.15);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        margin: 0;
+        padding: 1.5rem;
+        max-width: 760px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .app-header {
+        margin-bottom: 1.5rem;
+      }
+
+      .app-title {
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin: 0;
+      }
+
+      .app-subtitle {
+        color: var(--muted);
+        font-size: 0.98rem;
+        margin: 0.3rem 0 0 0;
+      }
+
+      .promo {
+        background: var(--accent-soft);
+        border: 1px solid var(--accent);
+        border-radius: 12px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 2rem;
+        font-size: 0.95rem;
+      }
+
+      .lang-section {
+        margin-bottom: 2rem;
+      }
+
+      .lang-label {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--muted);
+        margin-bottom: 0.5rem;
+      }
+
+      h2 {
+        font-size: 1.15rem;
+        margin: 1.75rem 0 0.5rem 0;
+        color: var(--accent);
+      }
+
+      h2:first-of-type {
+        margin-top: 0;
+      }
+
+      ul {
+        margin: 0.25rem 0 1rem 0;
+        padding-left: 1.25rem;
+      }
+
+      li {
+        margin: 0.35rem 0;
+      }
+
+      .support-footer {
+        margin-top: 2.5rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--surface);
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="app-header">
+      <h1 class="app-title">JumpBlocker / 开屏弃</h1>
+      <p class="app-subtitle">A cleaner launch path—no VPN, no traffic filtering.</p>
+    </header>
+
+    <p class="promo">
+      Skip splash countdowns and shake-to-open surprises by opening apps from Home Screen Web Clips or the in-app launcher via official deep links.
+    </p>
+
+    <div class="lang-section">
+      <div class="lang-label">English</div>
+      <p>
+        JumpBlocker helps you add Home Screen shortcuts that open supported apps through URL schemes,
+        often bypassing the splash-heavy cold start triggered by the original app icon. Profiles are
+        generated on your device when you export them.
+      </p>
+
+      <h2>Core Features</h2>
+      <ul>
+        <li><strong>Web Clip export</strong> - Export a configuration profile with Web Clips for 25+ popular apps (all or selected)</li>
+        <li><strong>Quick Open grid</strong> - One-tap deep-link launcher inside the app</li>
+        <li><strong>Optional widget</strong> - Medium Home Screen widget for curated apps</li>
+        <li><strong>Install guide</strong> - Step-by-step help for installing profiles in Settings</li>
+        <li><strong>Lightweight</strong> - No VPN, DNS, or network extension; works alongside any VPN you already use</li>
+      </ul>
+
+      <h2>How to Install Web Clips</h2>
+      <ul>
+        <li>Open JumpBlocker → Web Clips → Add all apps or pick individual apps → Export</li>
+        <li>Open the <code>.mobileconfig</code> file → Settings → Install Profile (unsigned warning is normal)</li>
+        <li>Use the <strong>new Home Screen icons</strong> instead of the original app icons for best results</li>
+      </ul>
+
+      <h2>What JumpBlocker Is Not</h2>
+      <ul>
+        <li>Not a system-wide ad blocker (no in-feed, video, or network ad blocking)</li>
+        <li>Does not intercept or read your network traffic</li>
+        <li>Does not install MDM, VPN, or remote management beyond Web Clip shortcuts you choose</li>
+        <li>Results vary by app and iOS version; third-party names describe compatibility only</li>
+      </ul>
+
+      <h2>FAQ</h2>
+      <ul>
+        <li><strong>Why “Unsigned”?</strong> Profiles are generated locally and are not Apple-notarized; iOS shows a standard warning before install.</li>
+        <li><strong>App won’t open?</strong> The target app may be uninstalled or the URL scheme may have changed—try updating JumpBlocker when a new registry version is available.</li>
+        <li><strong>Widget vs Web Clip?</strong> Web Clips on the Home Screen are the primary path; the widget is a supplementary shortcut.</li>
+      </ul>
+    </div>
+
+    <div class="lang-section">
+      <div class="lang-label">中文（简体）</div>
+      <p>
+        开屏弃帮助您通过主屏幕 Web Clip 或应用内快速打开，使用官方深度链接（URL Scheme）启动受支持的 App，
+        常能绕开点击「原图标」时的开屏与摇一摇跳转路径。描述文件仅在您导出时在设备本地生成。
+      </p>
+
+      <h2>核心功能</h2>
+      <ul>
+        <li><strong>Web Clip 导出</strong> - 一键导出含 25+ 常用 App 的描述文件（支持全选或自选）</li>
+        <li><strong>快速打开</strong> - 应用内网格，一点即通过深度链接启动</li>
+        <li><strong>可选小组件</strong> - 中号主屏幕小组件，方便常用 App</li>
+        <li><strong>安装指引</strong> - 图文说明如何在「设置」中安装描述文件</li>
+        <li><strong>轻量无负担</strong> - 无 VPN、DNS 或网络扩展，可与现有 VPN 共存</li>
+      </ul>
+
+      <h2>如何安装 Web Clip</h2>
+      <ul>
+        <li>打开开屏弃 → Web Clip → 添加全部或单个 App → 导出</li>
+        <li>打开 <code>.mobileconfig</code> 文件 → 设置 → 安装描述文件（「未签名」提示属正常现象）</li>
+        <li>请使用<strong>主屏幕新图标</strong>打开 App，而非原来的 App 图标，效果更佳</li>
+      </ul>
+
+      <h2>开屏弃不是什么</h2>
+      <ul>
+        <li>不是全网广告拦截器（不屏蔽信息流、视频中插或网络广告）</li>
+        <li>不拦截、不读取您的网络流量</li>
+        <li>除您主动安装的 Web Clip 外，不安装 MDM、VPN 或远程管理</li>
+        <li>效果因 App 与系统版本而异；第三方名称仅作兼容性说明</li>
+      </ul>
+
+      <h2>常见问题</h2>
+      <ul>
+        <li><strong>为何提示「未签名」？</strong> 描述文件在本地生成，未经 Apple 公证；安装前 iOS 会显示常规警告。</li>
+        <li><strong>打不开目标 App？</strong> 可能未安装该 App，或 URL Scheme 已变更—请尝试更新开屏弃以获取最新方案列表。</li>
+        <li><strong>小组件和 Web Clip 区别？</strong> 主屏幕 Web Clip 是主要路径；小组件为辅助快捷方式。</li>
+      </ul>
+    </div>
+
+    <section class="contact-section">
+      <h2>Contact / 联系我们</h2>
+      <p>For support or feedback, email us:</p>
+      <p><a href="mailto:1145966326@qq.com">1145966326@qq.com</a></p>
+      <p>如需帮助或反馈，请发送邮件至：<a href="mailto:1145966326@qq.com">1145966326@qq.com</a></p>
+      <p>
+        Privacy policy:
+        <a href="jumpblocker-privacy-policy.html">jumpblocker-privacy-policy.html</a>
+      </p>
+    </section>
+
+    <footer class="support-footer">
+      <p>App Copyright 2026 Two Stones</p>
+      <p>应用版权 2026 Two Stones</p>
+    </footer>
+  </body>
+</html>
