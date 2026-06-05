@@ -1,0 +1,153 @@
+{
+  "version": "1.1.0",
+  "themes": [
+    {
+      "id": "theme_bf_flaws_001",
+      "title": "最接受不了男朋友什么1",
+      "cover_url": null,
+      "tag": "HOT",
+      "questions": [
+        { "type": "text", "content": "300斤" },
+        { "type": "text", "content": "吃脚皮" },
+        { "type": "text", "content": "个子矮" },
+        { "type": "text", "content": "脾气差" },
+        { "type": "text", "content": "有男友" },
+        { "type": "text", "content": "打过胎" },
+        { "type": "text", "content": "不讲理" },
+        { "type": "text", "content": "尿手上" },
+        { "type": "text", "content": "拉裤裆" },
+        { "type": "text", "content": "拉完捏着玩" }
+      ]
+    },
+    {
+      "id": "theme_bf_flaws_002",
+      "title": "最接受不了男朋友什么2",
+      "cover_url": null,
+      "tag": "HOT",
+      "questions": [
+        { "type": "text", "content": "吃鼻屎" },
+        { "type": "text", "content": "脚臭" },
+        { "type": "text", "content": "狐臭" },
+        { "type": "text", "content": "打赏女主播" },
+        { "type": "text", "content": "300斤" },
+        { "type": "text", "content": "妈宝男" },
+        { "type": "text", "content": "娘" },
+        { "type": "text", "content": "秃顶" },
+        { "type": "text", "content": "年逾六十" },
+        { "type": "text", "content": "兜不住屎" },
+        { "type": "text", "content": "袜子长蘑菇" },
+        { "type": "text", "content": "裸奔" }
+      ]
+    },
+    {
+      "id": "theme_marry_001",
+      "title": "必须选一个嫁给他",
+      "cover_url": null,
+      "tag": "HOT",
+      "questions": [
+        { "type": "text", "content": "富商但兜不住屎" },
+        { "type": "text", "content": "老头有低保" },
+        { "type": "text", "content": "帅但是穷" },
+        { "type": "text", "content": "1米5 300斤" },
+        { "type": "text", "content": "1米85 八块腹肌" },
+        { "type": "text", "content": "又帅又有钱但是不行" }
+      ]
+    },
+    {
+      "id": "theme_gf_flaws_001",
+      "title": "最接受不了女朋友什么",
+      "cover_url": null,
+      "tag": null,
+      "questions": [
+        { "type": "text", "content": "纹身" },
+        { "type": "text", "content": "点男模" },
+        { "type": "text", "content": "喝酒" },
+        { "type": "text", "content": "冷暴力" },
+        { "type": "text", "content": "200斤" },
+        { "type": "text", "content": "抽烟" },
+        { "type": "text", "content": "脚臭" },
+        { "type": "text", "content": "秃顶" },
+        { "type": "text", "content": "兜不住屎" }
+      ]
+    },
+    {
+      "id": "theme_partner_flaws_001",
+      "title": "最接受不了对象什么",
+      "cover_url": null,
+      "tag": null,
+      "questions": [
+        { "type": "text", "content": "随地大小便" },
+        { "type": "text", "content": "脾气暴躁" },
+        { "type": "text", "content": "口臭 狐臭 脚臭 胩臭" },
+        { "type": "text", "content": "精神病" },
+        { "type": "text", "content": "公共场合吃屎" },
+        { "type": "text", "content": "吃完屎亲你" }
+      ]
+    },
+    {
+      "id": "theme_bff_flaws_001",
+      "title": "最接受不了闺蜜什么",
+      "cover_url": null,
+      "tag": null,
+      "questions": [
+        { "type": "text", "content": "喜欢你男朋友" },
+        { "type": "text", "content": "给她看搞笑的视频她没笑" },
+        { "type": "text", "content": "经常骂你对象" },
+        { "type": "text", "content": "睡在一起跟她聊天她一下睡着了" },
+        { "type": "text", "content": "不给我买大别墅" },
+        { "type": "text", "content": "屏蔽我朋友圈" },
+        { "type": "text", "content": "偷吃我薯片" },
+        { "type": "text", "content": "给她分享的视频她没看过几天又给我发回来了" },
+        { "type": "text", "content": "跟我讨厌的人一起出去玩" },
+        { "type": "text", "content": "p图只p自己" }
+      ]
+    },
+    {
+      "id": "theme_choice_001",
+      "title": "二选一实现1",
+      "cover_url": null,
+      "tag": "NEW",
+      "questions": [
+        { "type": "text", "content": "和偶像谈恋爱" },
+        { "type": "text", "content": "包养小鲜肉" },
+        { "type": "text", "content": "富二代" },
+        { "type": "text", "content": "开豪车" },
+        { "type": "text", "content": "200斤" },
+        { "type": "text", "content": "升职加薪" },
+        { "type": "text", "content": "E罩杯" },
+        { "type": "text", "content": "F罩杯" }
+      ]
+    },
+    {
+      "id": "theme_pick_one_001",
+      "title": "只能选一样",
+      "cover_url": null,
+      "tag": "NEW",
+      "questions": [
+        { "type": "text", "content": "花不完的钱" },
+        { "type": "text", "content": "长得帅" },
+        { "type": "text", "content": "永远不死" },
+        { "type": "text", "content": "唱歌不跑调" },
+        { "type": "text", "content": "超耐用" },
+        { "type": "text", "content": "变成超人" },
+        { "type": "text", "content": "父母长命百岁" }
+      ]
+    },
+    {
+      "id": "theme_choice_002",
+      "title": "二选一实现2",
+      "cover_url": null,
+      "tag": "NEW",
+      "questions": [
+        { "type": "text", "content": "有钱但命短" },
+        { "type": "text", "content": "没钱但长寿" },
+        { "type": "text", "content": "消除痛苦记忆" },
+        { "type": "text", "content": "被爱但不自由" },
+        { "type": "text", "content": "有钱但不能碰异性" },
+        { "type": "text", "content": "会隐身但必须裸身" },
+        { "type": "text", "content": "有钱长寿但必须吃屎" },
+        { "type": "text", "content": "怎么吃都吃不胖" }
+      ]
+    }
+  ]
+}
