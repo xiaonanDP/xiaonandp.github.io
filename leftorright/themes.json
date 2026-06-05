@@ -3,7 +3,7 @@
   "themes": [
     {
       "id": "theme_bf_flaws_001",
-      "title": "最接受不了男朋友什么1",
+      "title": "最接受不了男朋友什么",
       "cover_url": null,
       "tag": "HOT",
       "questions": [
@@ -21,7 +21,7 @@
     },
     {
       "id": "theme_bf_flaws_002",
-      "title": "最接受不了男朋友什么2",
+      "title": "最接受不了男朋友什么",
       "cover_url": null,
       "tag": "HOT",
       "questions": [
@@ -104,7 +104,7 @@
     },
     {
       "id": "theme_choice_001",
-      "title": "二选一实现1",
+      "title": "二选一实现",
       "cover_url": null,
       "tag": "NEW",
       "questions": [
@@ -135,7 +135,7 @@
     },
     {
       "id": "theme_choice_002",
-      "title": "二选一实现2",
+      "title": "二选一实现",
       "cover_url": null,
       "tag": "NEW",
       "questions": [
