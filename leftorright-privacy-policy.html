@@ -108,6 +108,63 @@
         仅在对应功能需要时申请相关权限。
       </p>
 
+      <h2>Face Data and TrueDepth API / 面部数据与 TrueDepth API</h2>
+      <p>
+        On supported devices, the Application uses Apple’s ARKit Face Tracking API
+        (<code>ARFaceTrackingConfiguration</code>), which relies on the TrueDepth camera, only during an
+        active challenge session. The Application does <strong>not</strong> collect, store, or transmit
+        face maps, biometric templates, or other face data to the Service Provider or to third parties.
+      </p>
+      <p>
+        在支持的设备上，本应用仅在活跃挑战会话期间使用 Apple 的 ARKit 面部追踪 API
+       （<code>ARFaceTrackingConfiguration</code>），该 API 依赖 TrueDepth 相机。本应用<strong>不会</strong>向服务提供方或第三方收集、存储或传输面部网格、生物特征模板或其他面部数据。
+      </p>
+
+      <p><strong>What information is accessed / 访问哪些信息</strong></p>
+      <p>
+        During an active challenge, face tracking runs on your device in real time to estimate head pose
+        (left or right tilt). This processing is ephemeral: the Application reads live face-tracking output
+        only to interpret head movement as gameplay input. We do not persist face maps, depth data, or
+        biometric identifiers on the device or on any server.
+      </p>
+      <p>
+        在活跃挑战期间，面部追踪在您的设备上实时运行，以估算头部姿态（向左或向右倾斜）。该处理是即时的：本应用仅读取实时面部追踪输出，将头部动作解读为游玩输入。我们不会在设备或任何服务器上持久保存面部网格、深度数据或生物特征标识。
+      </p>
+
+      <p><strong>Purpose of use / 使用目的</strong></p>
+      <p>
+        Face tracking and TrueDepth are used exclusively for in-app gameplay and UI: to detect left versus
+        right head tilt so you can make “Would You Rather” choices hands-free during a challenge. Face data
+        is not used for advertising, analytics, user profiling, authentication, or any purpose outside this
+        gameplay feature.
+      </p>
+      <p>
+        面部追踪与 TrueDepth 仅用于应用内游玩与界面：检测向左或向右的头部倾斜，以便您在挑战中免提做出「二选一」选择。面部数据不用于广告、分析、用户画像、身份验证或该游玩功能以外的任何目的。
+      </p>
+
+      <p><strong>Sharing and disclosure / 共享与披露</strong></p>
+      <p>
+        The Application does not share, sell, or disclose face data or TrueDepth-derived information to third
+        parties. When you use system share sheets to save or share a challenge video, that action involves
+        only the content you choose to export (for example, a locally recorded video)—not raw face maps or
+        biometric templates collected through TrueDepth.
+      </p>
+      <p>
+        本应用不会向第三方共享、出售或披露面部数据或通过 TrueDepth 获得的信息。当您使用系统分享功能保存或分享挑战视频时，该操作仅涉及您选择导出的内容（例如本地录制的视频），而非通过 TrueDepth 收集的原始面部网格或生物特征模板。
+      </p>
+
+      <p><strong>Storage and retention / 存储与保留</strong></p>
+      <p>
+        Face tracking data is processed on device only while a challenge session is active and is not written
+        to local storage by the Application. We do not retain face data after the session ends. Challenge
+        recordings (if you choose to record) may include video of your face as part of the camera preview,
+        but those recordings are stored locally on your device until you save or delete them; they are not
+        uploaded to our servers in the current version.
+      </p>
+      <p>
+        面部追踪数据仅在挑战会话进行期间于设备上处理，本应用不会将其写入本地存储。会话结束后，我们不保留面部数据。挑战录制（若您选择录制）可能因相机预览而包含您的面部画面，但该等录制仅保存在您设备的本地存储中，直至您保存或删除；当前版本不会上传至我们的服务器。
+      </p>
+
       <h2>Theme content / 主题内容</h2>
       <p>
         Theme question banks are bundled in the Application for offline play. The Application may optionally
@@ -180,8 +237,8 @@
         本隐私政策可能不时更新，服务提供方将在本页面发布变更。更新后继续使用即视为接受修订后的政策。
       </p>
 
-      <p>This Privacy Policy is effective as of 2026-06-09.</p>
-      <p>本隐私政策生效日期：2026-06-09。</p>
+      <p>This Privacy Policy is effective as of 2026-06-14.</p>
+      <p>本隐私政策生效日期：2026-06-14。</p>
 
       <h2>Your consent / 您的同意</h2>
       <p>
