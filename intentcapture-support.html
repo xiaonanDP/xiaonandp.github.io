@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Intent Capture - Support & Help</title>
+    <meta
+      name="description"
+      content="Intent Capture support. Freeze the thought you had when you picked up your phone—Lock Screen widget, Home Screen widget, Live Activity, Control Center, and Shortcuts. Local-first, no account required."
+    >
+    <meta
+      name="keywords"
+      content="intent capture, lock screen note, quick note, focus widget, remember why, brain dump, live activity, dynamic island, widget, shortcuts, 要干嘛, 锁屏组件, 实时活动, 防忘记, 闪念"
+    >
+    <style>
+      :root {
+        --bg: #0f1419;
+        --surface: #1a2332;
+        --text: #e6edf3;
+        --muted: #8b949e;
+        --accent: #58a6ff;
+        --accent-soft: rgba(88, 166, 255, 0.15);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        margin: 0;
+        padding: 1.5rem;
+        max-width: 760px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .app-header {
+        margin-bottom: 1.5rem;
+      }
+
+      .app-title {
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin: 0;
+      }
+
+      .app-subtitle {
+        color: var(--muted);
+        font-size: 0.98rem;
+        margin: 0.3rem 0 0 0;
+      }
+
+      .promo {
+        background: var(--accent-soft);
+        border: 1px solid var(--accent);
+        border-radius: 12px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 2rem;
+        font-size: 0.95rem;
+      }
+
+      .lang-section {
+        margin-bottom: 2rem;
+      }
+
+      .lang-label {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--muted);
+        margin-bottom: 0.5rem;
+      }
+
+      h2 {
+        font-size: 1.15rem;
+        margin: 1.75rem 0 0.5rem 0;
+        color: var(--accent);
+      }
+
+      h2:first-of-type {
+        margin-top: 0;
+      }
+
+      ul {
+        margin: 0.25rem 0 1rem 0;
+        padding-left: 1.25rem;
+      }
+
+      li {
+        margin: 0.35rem 0;
+      }
+
+      .support-footer {
+        margin-top: 2.5rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--surface);
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="app-header">
+      <h1 class="app-title">Intent Capture / 要干嘛</h1>
+      <p class="app-subtitle">Remember why you picked up your phone—before the feed steals your focus.</p>
+    </header>
+
+    <p class="promo">
+      Capture a one-line intent in seconds. It stays on your Lock Screen, Home Screen widget, and Live Activity until you finish or dismiss it—no account, all local on device.
+    </p>
+
+    <div class="lang-section">
+      <div class="lang-label">English</div>
+      <p>
+        Intent Capture freezes the thought you had when you unlocked your phone. Not a todo app—one short line,
+        one active intent. Your data stays on your device.
+      </p>
+
+      <h2>Core Features</h2>
+      <ul>
+        <li><strong>Three-second capture</strong> - Open the app, type one line, save—no projects or due dates</li>
+        <li><strong>Lock Screen widget</strong> - See your intent the moment you wake your phone</li>
+        <li><strong>Home Screen widget</strong> - Mark done or dismiss without opening the app</li>
+        <li><strong>Live Activity</strong> - Gentle ambient reminder while an intent is active</li>
+        <li><strong>Control Center</strong> - Quick capture from Control Center</li>
+        <li><strong>Shortcuts</strong> - Automate capture with Siri and Shortcuts</li>
+        <li><strong>Local history</strong> - Lightweight past-intent history stored on device</li>
+        <li><strong>No account</strong> - Core features work without sign-in</li>
+      </ul>
+
+      <h2>How to Set Up Widgets</h2>
+      <ul>
+        <li><strong>Lock Screen</strong> - Long-press the Lock Screen → Customize → tap the widget area below the clock → search for Intent Capture → add the widget → Done</li>
+        <li><strong>Home Screen</strong> - Long-press the Home Screen → tap + → search for Intent Capture → choose a size → Add Widget</li>
+        <li><strong>Control Center</strong> - Open Settings → Control Center → add Intent Capture if available on your iOS version</li>
+      </ul>
+
+      <h2>How to Use</h2>
+      <ul>
+        <li>Tap <strong>Capture Intent</strong> in the app (or use Control Center / Shortcuts) and enter why you unlocked</li>
+        <li>Your intent appears on Lock Screen, Home Screen widget, and Live Activity</li>
+        <li>Tap <strong>Done</strong> when finished, or <strong>Dismiss</strong> if you no longer need the reminder</li>
+        <li>Only one intent is active at a time—capturing a new one auto-dismisses the previous active intent</li>
+      </ul>
+
+      <h2>FAQ</h2>
+      <ul>
+        <li><strong>Widget not updating?</strong> iOS may delay widget refreshes. Open the app once, or remove and re-add the widget. Ensure Intent Capture is allowed background refresh in Settings if needed.</li>
+        <li><strong>Live Activity not showing?</strong> Live Activities require a supported device and an active intent. Check Settings → Intent Capture → Live Activities is enabled.</li>
+        <li><strong>Can I use it offline?</strong> Yes. Capture, widgets, and history work without an internet connection.</li>
+        <li><strong>Where is my data stored?</strong> On your device only. Intents are saved locally and shared with the widget extension via App Group storage—not uploaded to our servers.</li>
+        <li><strong>How do I delete history?</strong> Swipe or delete past intents from the in-app history screen.</li>
+      </ul>
+    </div>
+
+    <div class="lang-section">
+      <div class="lang-label">中文（简体）</div>
+      <p>
+        「要干嘛」帮你在信息流抢走注意力之前，记住刚刚解锁手机时那个一闪而过的念头。
+        不是待办清单——一行字，一个当前意图，数据只保存在本机。
+      </p>
+
+      <h2>核心功能</h2>
+      <ul>
+        <li><strong>三秒捕捉</strong> - 打开应用，写一行字，保存——无需项目或截止日期</li>
+        <li><strong>锁屏小组件</strong> - 拿起手机第一眼就能看到当前意图</li>
+        <li><strong>主屏幕小组件</strong> - 无需打开应用即可标记完成或忽略</li>
+        <li><strong>实时活动</strong> - 意图活跃时安静陪伴，不吵闹但始终可见</li>
+        <li><strong>控制中心</strong> - 从控制中心快速录入</li>
+        <li><strong>快捷指令</strong> - 配合 Siri 与快捷指令一键捕捉</li>
+        <li><strong>本地历史</strong> - 轻量历史记录，仅保存在设备上</li>
+        <li><strong>无需账号</strong> - 核心功能不强制登录注册</li>
+      </ul>
+
+      <h2>如何设置小组件</h2>
+      <ul>
+        <li><strong>锁屏</strong> - 长按锁屏 → 自定义 → 点击时钟下方小组件区域 → 搜索「要干嘛」或 Intent Capture → 添加 → 完成</li>
+        <li><strong>主屏幕</strong> - 长按主屏幕 → 点左上角 + → 搜索 Intent Capture → 选择尺寸 → 添加小组件</li>
+        <li><strong>控制中心</strong> - 打开「设置 → 控制中心」，在支持的系统版本中添加 Intent Capture</li>
+      </ul>
+
+      <h2>如何使用</h2>
+      <ul>
+        <li>在应用中点击「记住」（或通过控制中心 / 快捷指令），写下你解锁的原因</li>
+        <li>意图会出现在锁屏、主屏幕小组件与实时活动中</li>
+        <li>完成后点「完成」，不再需要时点「忽略」</li>
+        <li>同一时间仅有一个活跃意图——捕捉新意图会自动忽略之前的活跃意图</li>
+      </ul>
+
+      <h2>常见问题</h2>
+      <ul>
+        <li><strong>小组件不更新？</strong> 系统可能延迟刷新小组件。可打开应用一次，或移除后重新添加小组件。</li>
+        <li><strong>实时活动不显示？</strong> 需要支持的设备且有活跃意图。请检查「设置 → Intent Capture → 实时活动」是否已开启。</li>
+        <li><strong>可以离线使用吗？</strong> 可以。捕捉、小组件与历史记录均无需联网。</li>
+        <li><strong>数据保存在哪里？</strong> 仅保存在您的设备上，通过 App Group 与小组件扩展共享，不会上传至我们的服务器。</li>
+        <li><strong>如何删除历史？</strong> 在应用内的历史记录中删除过往意图即可。</li>
+      </ul>
+    </div>
+
+    <section class="contact-section">
+      <h2>Contact / 联系我们</h2>
+      <p>For support or feedback, email us:</p>
+      <p><a href="mailto:1145966326@qq.com">1145966326@qq.com</a></p>
+      <p>如需帮助或反馈，请发送邮件至：<a href="mailto:1145966326@qq.com">1145966326@qq.com</a></p>
+      <p>
+        Privacy policy:
+        <a href="intentcapture-privacy-policy.html">intentcapture-privacy-policy.html</a>
+      </p>
+      <p>
+        隐私政策：
+        <a href="intentcapture-privacy-policy.html">intentcapture-privacy-policy.html</a>
+      </p>
+    </section>
+
+    <footer class="support-footer">
+      <p>App Copyright 2026 Two Stones</p>
+      <p>应用版权 2026 Two Stones</p>
+    </footer>
+  </body>
+</html>
